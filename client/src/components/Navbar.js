@@ -161,7 +161,9 @@ const Navbar=()=>{
       <Link to={state?"/":"/login"} className="brand-logo">MernsApp</Link>
       
       <a data-target="mobile-demo" className="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <div style={{marginLeft:"20em"}}><button style={{fontSize:"0.7em"}} className="btn waves-effect waves-light red valign-wrapper hide-on-large-only" onClick={logout}>Logout</button></div>
+      {
+        state?
+        <div style={{marginLeft:"20em"}}><button style={{fontSize:"0.7em"}} className="btn waves-effect waves-light red valign-wrapper hide-on-large-only" onClick={logout}>Logout</button></div>:""}
       <ul id="nav-mobile listitems" className="right hide-on-med-and-down">
         {renderlist()}
       </ul>
