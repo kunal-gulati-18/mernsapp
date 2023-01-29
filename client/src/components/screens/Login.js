@@ -21,7 +21,8 @@ const Login=()=>{
             },
 
             body:JSON.stringify({
-                email
+                email,
+                password
             })
 
         })
