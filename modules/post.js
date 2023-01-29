@@ -1,7 +1,6 @@
 var mongoose=require('mongoose')
 const {ObjectId}=mongoose.Schema.Types
-var {MONGOURI,SECRET}=require('../keys')
-mongoose.connect("mongodb+srv://Kunal:BzuElQVKbS3CNbKR@cluster0.ale9a.mongodb.net/InstaUserData?retryWrites=true&w=majority",{useNewUrlParser:true, useUnifiedTopology:true})
+mongoose.connect("mongodb+srv://Kunal_Gulati:4P1t88DQPZuFYQLg@cluster0.ale9a.mongodb.net/InstaUserData?retryWrites=true&w=majority",{useNewUrlParser:true, useUnifiedTopology:true})
 
 var postSchema=new mongoose.Schema({
 

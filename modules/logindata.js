@@ -2,7 +2,7 @@ const express=require('express');
 const mongoose=require('mongoose');
 const {MONGOURI}=require('../keys')
 const {ObjectId}=mongoose.Schema.Types
-mongoose.connect("mongodb+srv://Kunal:BzuElQVKbS3CNbKR@cluster0.ale9a.mongodb.net/InstaUserData?retryWrites=true&w=majority",{useNewUrlParser:true,useUnifiedTopology:true,useFindAndModify:true});
+mongoose.connect("mongodb+srv://Kunal_Gulati:4P1t88DQPZuFYQLg@cluster0.ale9a.mongodb.net/InstaUserData?retryWrites=true&w=majority",{useNewUrlParser:true,useUnifiedTopology:true,useFindAndModify:true});
 
 const LoginDetailsSchema= new mongoose.Schema({
 
